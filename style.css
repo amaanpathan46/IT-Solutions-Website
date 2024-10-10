@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "monasans";
+}
+@font-face {
+  font-family: monasans;
+  src: url(./fonts/mona-_sans/Mona-Sans.woff);
+}
+.mx120 {
+  margin: 0px 120px;
+}
+
+/* .heroContainer {
+  margin: 0px 120px;
+} */
+.container {
+  background-image: url("./images/office-background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1030px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.navLogo {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 25px;
+  color: #ffff;
+}
+.navElements ul {
+  display: flex;
+  gap: 40px;
+}
+.navElements li {
+  list-style: none;
+}
+.navElements a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.heroSection {
+  margin-top: 80px;
+}
+.heroSection h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 120px;
+}
+.heroSection p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 100px 0px;
+}
+.heroSection button {
+  padding: 27px 30px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1px rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 500;
+}
+.aboutUsSection {
+  padding: 120px 0px;
+}
+.aboutUsSection h1 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 50px;
+}
+.aboutDivider {
+  margin: 40px 0px 0px 0px;
+  height: 3px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.aboutUsContent {
+  display: grid;
+  grid-template-columns: 30% 20% 50%;
+  margin-top: 100px;
+  justify-items: center;
+  gap: 25px;
+}
+.aboutUsDescription p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.aboutUsDescription button {
+  background-color: rgba(94, 53, 177, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  border: none;
+  border-radius: 100px;
+  padding: 20px 50px 20px 50px;
+  margin-top: 65px;
+}
+.aboutUsAMP {
+  display: grid;
+  gap: 17px;
+}
+.aboutUsAMP h1 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 28px;
+  padding-top: 10px;
+}
+.aboutUsAim {
+  display: grid;
+  gap: 15px;
+}
+.aboutUsAim p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 38px;
+}
+.expertiseSection {
+  background-color: rgba(217, 226, 255, 1);
+}
+/* .expertiseContainer {
+  margin: 0px 120px;
+} */
+.expertiseHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 3px solid rgba(255, 255, 255, 1); */
+  padding: 80px 0px 35px 0px;
+}
+.expertiseHeading h1 {
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 38px;
+}
+.expertiseHeading p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.expertiseDivider {
+  height: 3px;
+  margin: auto;
+  background-color: #fff;
+  border: none;
+}
+.expertiseLogoSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 25px;
+}
+.expertiseLogo img {
+  width: 145px;
+}
+/* .servicesContainer {
+  margin: 0px 120px;
+} */
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+.services h1 {
+  font-size: 75px;
+  line-height: 38px;
+  font-weight: 400;
+}
+.services p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.servicesDivider {
+  height: 3px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: none;
+  margin: 45px 0px;
+}
+.serviceCardSection {
+  display: flex;
+  gap: 25px;
+  margin: 80px 0px;
+}
+.serviceCard {
+  background-color: rgba(248, 250, 255, 1);
+
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  backdrop-filter: blur(12px);
+
+  box-shadow: 4px 4px 7.5px 0px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+}
+.serviceCard:hover {
+  background-color: rgba(94, 53, 177, 1);
+  color: #fff;
+}
+.serviceCard p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  margin-top: 15px;
+}
+.serviceCard h4 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 28px;
+}
+.coursepromoContainer {
+  position: relative;
+  overflow: hidden;
+  height: 350px;
+  margin: 120px 0px;
+}
+#coursepromovideo {
+  position: absolute;
+}
+.coursepromoSection {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 50% 50%;
+  padding: 85px 0px;
+}
+.coursepromoText {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 63px;
+  color: #fff;
+}
+.coursepromoArrow {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 63px;
+  background-color: rgba(176, 195, 255, 0.25);
+  backdrop-filter: blur(7.5px);
+  padding: 20px;
+  border-radius: 100px;
+}
+.coursepromoArrow i {
+  color: #fff;
+}
+/* Responsive section */
+@media (min-width:475px){
+  .expertiseLogoSection{
+    flex-wrap: wrap;
+  }
+}
